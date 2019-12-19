@@ -1,0 +1,29 @@
+/* /* CSS Reset Exercise
+Download this skeleton. Work out of css_reset.css */
+
+/* Oh no! We've removed the original reset stylesheet! Time to build our own. */
+
+/* Clear default margin, padding and border from any elements that we're using in our HTML. */
+html, head, body, header, img, nav, ul, li, a, aside, section, {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Make sure font properties get inherited. */
+
+
+/* Remove default styling from lists. */
+li {
+    default:
+}
+
+/* Give text in the body a line-height of 1.5. */
+body {
+    line-height: 1.5;
+}
+
+/* Make sure images always take up the width of their parents.  */
+img {
+    width: 100%;
+}
